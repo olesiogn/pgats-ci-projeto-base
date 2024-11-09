@@ -25,12 +25,16 @@
    yarn run test:mutation
    ```
 10. Abra o relatório de mutação em `reports/mutation`
-11. Execute os testes end-to-end com o Playwright
+11. Instale o Playwright
+    ```shell
+    npx playwright install
+    ```
+12. Execute os testes end-to-end com o Playwright
     ```shell
     yarn run e2e
     ```
-12. Execute a aplicação com `yarn start`
-13. Acesse a aplicação publicada [neste link](https://pgats-ci-example.netlify.app)
+13. Execute a aplicação com `yarn start`
+14. Acesse a aplicação publicada [neste link](https://pgats-ci-example.netlify.app)
 
 ---
 💜⚡️
